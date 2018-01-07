@@ -1,0 +1,20 @@
+{
+  "account" : {
+    "username": "flying-penguin",
+    "wallets" : [ {
+      "address": "0xbanana",
+      "currency": "PGG",
+      "amount": 100
+    }, {
+      "address": "0xdonations",
+      "currency": "PGG",
+      "amount": 3
+    }, {
+      "address": "0xorange",
+      "currency": "CAD",
+      "amount": 1000
+    } ],
+    "transactions": [],
+    "orders": []
+  }
+}

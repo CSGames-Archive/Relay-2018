@@ -21,13 +21,13 @@ localhost:????/mySuperDupeApp
 **Languages/Frameworks**: React, Jest, ES6, Webpack, Enzyme
 
 ## Instructions
-
 - [ ] web application should be optimistic
 - [ ] the state should change without page refresh
 - [ ] the app will be "in memory" you can either only change the state of the application or modify the provided JSON files.
+- [ ] you need at least one waller per currency you want to trade
+- [ ] you can simulate that your user is already logged in your application state
 
 ### Bonus points (18pts)
-
 - [ ] Deploy on a public cloud. (ex: Heroku) (0.5 pt)
 - [ ] Public CI pipeline (ex: CircleCi is available for public repositories for free)
 *(add link to your pipeline in the readme.md)
@@ -44,12 +44,12 @@ localhost:????/mySuperDupeApp
 
 ### Hour 1
 _Give access to trades.json, accounts.json_
-- [ ] (1pt) Deposit PGG to your account
-- [ ] (1pt) Deposit CAD to your account
-- [ ] (1pt) Display your account CAD amount
-- [ ] (1pt) Display your account PGG amount
+- [ ] (1pt) Create wallet in an account
+- [ ] (1pt) Display wallets of an account
+- [ ] (1pt) Deposit PGG or CAD to a wallet
+- [ ] (1pt) Display wallet currency and amount
 - [ ] (1pt) Display the PGG/CAD current price (price of the latest trade)
-- [ ] (1pt) Display your account value CAD + PGG (need to have a current PPG/CAD price)
+- [ ] (2pt) Display your account value CAD + PGG of all wallets (need to have a current PPG/CAD price)
 
 
 ### Hour 2 

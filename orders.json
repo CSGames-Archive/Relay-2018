@@ -4,240 +4,240 @@
         "price": 0.0430001,
         "currency": "PPG/CAD",
         "quantity": 1000,
-        "owner": "0x12356789"
+        "ownerWallet": "0x12356789"
     }, {
         "orderType": "buy",
         "price": 0.043001,
         "currency": "PPG/CAD",
         "quantity": 800,
-        "owner": "0x12356989"
+        "ownerWallet": "0x12356989"
     }, {
         "orderType": "buy",
         "price": 0.04301,
         "currency": "PPG/CAD",
         "quantity": 12,
-        "owner": "0x123596789"
+        "ownerWallet": "0x123596789"
     }, {
         "orderType": "buy",
         "price": 0.0431,
         "currency": "PPG/CAD",
         "quantity": 104,
-        "owner": "0x12354316789"
+        "ownerWallet": "0x12354316789"
     }, {
         "orderType": "buy",
         "price": 0.0432,
         "currency": "PPG/CAD",
         "quantity": 1000,
-        "owner": "0x123512566789"
+        "ownerWallet": "0x123512566789"
     }, {
         "orderType": "buy",
         "price": 0.0434,
         "currency": "PPG/CAD",
         "quantity": 200,
-        "owner": "0x1235123566789"
+        "ownerWallet": "0x1235123566789"
     }, {
         "orderType": "buy",
         "price": 0.0435,
         "currency": "PPG/CAD",
         "quantity": 100,
-        "owner": "0x123512686789"
+        "ownerWallet": "0x123512686789"
     }, {
         "orderType": "buy",
         "price": 0.0435,
         "currency": "PPG/CAD",
         "quantity": 300,
-        "owner": "0x123127556789"
+        "ownerWallet": "0x123127556789"
     }, {
         "orderType": "buy",
         "price": 0.0435,
         "currency": "PPG/CAD",
         "quantity": 450,
-        "owner": "0x12351277813246789"
+        "ownerWallet": "0x12351277813246789"
     }, {
         "orderType": "buy",
         "price": 0.0435,
         "currency": "PPG/CAD",
         "quantity": 50,
-        "owner": "0x123qewrt56789"
+        "ownerWallet": "0x123qewrt56789"
     }, {
         "orderType": "buy",
         "price": 0.0435,
         "currency": "PPG/CAD",
         "quantity": 25,
-        "owner": "0x123561235eaesdf789"
+        "ownerWallet": "0x123561235eaesdf789"
     }, {
         "orderType": "buy",
         "price": 0.0435,
         "currency": "PPG/CAD",
         "quantity": 3000,
-        "owner": "0x1235as1236789"
+        "ownerWallet": "0x1235as1236789"
     }, {
         "orderType": "buy",
         "price": 0.0435,
         "currency": "PPG/CAD",
         "quantity": 10000,
-        "owner": "0x1235612346t789"
+        "ownerWallet": "0x1235612346t789"
     }, {
         "orderType": "buy",
         "price": 0.0435,
         "currency": "PPG/CAD",
         "quantity": 10,
-        "owner": "0x12356sadf789"
+        "ownerWallet": "0x12356sadf789"
     }, {
         "orderType": "buy",
         "price": 0.0435,
         "currency": "PPG/CAD",
         "quantity": 22,
-        "owner": "0x12356ewt1789"
+        "ownerWallet": "0x12356ewt1789"
     }, {
         "orderType": "buy",
         "price": 0.04351,
         "currency": "PPG/CAD",
         "quantity": 45,
-        "owner": "0x12356asdqwe789"
+        "ownerWallet": "0x12356asdqwe789"
     }, {
         "orderType": "buy",
         "price": 0.04352,
         "currency": "PPG/CAD",
         "quantity": 12345,
-        "owner": "0x123567dsfasg89"
+        "ownerWallet": "0x123567dsfasg89"
     }, {
         "orderType": "buy",
         "price": 0.04353,
         "currency": "PPG/CAD",
         "quantity": 12,
-        "owner": "0x1235hjk6789"
+        "ownerWallet": "0x1235hjk6789"
     }, {
         "orderType": "buy",
         "price": 0.04354,
         "currency": "PPG/CAD",
         "quantity": 111,
-        "owner": "0x1235rwty6789"
+        "ownerWallet": "0x1235rwty6789"
     }, {
         "orderType": "buy",
         "price": 0.04355,
         "currency": "PPG/CAD",
         "quantity": 1212,
-        "owner": "0x12356jwrtywq789"
+        "ownerWallet": "0x12356jwrtywq789"
     }, {
         "orderType": "sell",
         "price": 0.0440001,
         "currency": "PPG/CAD",
         "quantity": 1000,
-        "owner": "0x12afdsg35asdfg6789"
+        "ownerWallet": "0x12afdsg35asdfg6789"
     }, {
         "orderType": "sell",
         "price": 0.0444,
         "currency": "PPG/CAD",
         "quantity": 200,
-        "owner": "0x1235ads6asd89"
+        "ownerWallet": "0x1235ads6asd89"
     }, {
         "orderType": "sell",
         "price": 0.045,
         "currency": "PPG/CAD",
         "quantity": 1,
-        "owner": "0x12dasf35sd6789"
+        "ownerWallet": "0x12dasf35sd6789"
     }, {
         "orderType": "sell",
         "price": 0.0451,
         "currency": "PPG/CAD",
         "quantity": 3000,
-        "owner": "0x12gg356aaa789"
+        "ownerWallet": "0x12gg356aaa789"
     },{
         "orderType": "sell",
         "price": 0.0452001,
         "currency": "PPG/CAD",
         "quantity": 1000,
-        "owner": "0x12356asfwe789"
+        "ownerWallet": "0x12356asfwe789"
     }, {
         "orderType": "sell",
         "price": 0.0454,
         "currency": "PPG/CAD",
         "quantity": 200,
-        "owner": "0x12356qwdasc789"
+        "ownerWallet": "0x12356qwdasc789"
     }, {
         "orderType": "sell",
         "price": 0.0454,
         "currency": "PPG/CAD",
         "quantity": 1,
-        "owner": "0x123567edgraq89"
+        "ownerWallet": "0x123567edgraq89"
     }, {
         "orderType": "sell",
         "price": 0.0454,
         "currency": "PPG/CAD",
         "quantity": 3000,
-        "owner": "0x12356asdfqwetr789"
+        "ownerWallet": "0x12356asdfqwetr789"
     },{
         "orderType": "sell",
         "price": 0.0454,
         "currency": "PPG/CAD",
         "quantity": 1000,
-        "owner": "0x12356adhjaerh789"
+        "ownerWallet": "0x12356adhjaerh789"
     }, {
         "orderType": "sell",
         "price": 0.0456,
         "currency": "PPG/CAD",
         "quantity": 200,
-        "owner": "0x1adfhadrtge2356789"
+        "ownerWallet": "0x1adfhadrtge2356789"
     }, {
         "orderType": "sell",
         "price": 0.0455,
         "currency": "PPG/CAD",
         "quantity": 1,
-        "owner": "0x12356jtatrertge789"
+        "ownerWallet": "0x12356jtatrertge789"
     }, {
         "orderType": "sell",
         "price": 0.04561,
         "currency": "PPG/CAD",
         "quantity": 3000,
-        "owner": "0x1235asdfgh6789"
+        "ownerWallet": "0x1235asdfgh6789"
     },{
         "orderType": "sell",
         "price": 0.0457,
         "currency": "PPG/CAD",
         "quantity": 1000,
-        "owner": "0x12356jrthae789"
+        "ownerWallet": "0x12356jrthae789"
     }, {
         "orderType": "sell",
         "price": 0.0457,
         "currency": "PPG/CAD",
         "quantity": 200,
-        "owner": "0x12356aerth43789"
+        "ownerWallet": "0x12356aerth43789"
     }, {
         "orderType": "sell",
         "price": 0.0457,
         "currency": "PPG/CAD",
         "quantity": 1,
-        "owner": "0x123562134esdfadf789"
+        "ownerWallet": "0x123562134esdfadf789"
     }, {
         "orderType": "sell",
         "price": 0.0457,
         "currency": "PPG/CAD",
         "quantity": 3000,
-        "owner": "0x1235a336789"
+        "ownerWallet": "0x1235a336789"
     },{
         "orderType": "sell",
         "price": 0.0457,
         "currency": "PPG/CAD",
         "quantity": 1000,
-        "owner": "0x123567f232389"
+        "ownerWallet": "0x123567f232389"
     }, {
         "orderType": "sell",
         "price": 0.0457,
         "currency": "PPG/CAD",
         "quantity": 200,
-        "owner": "0x123567aqwesd89"
+        "ownerWallet": "0x123567aqwesd89"
     }, {
         "orderType": "sell",
         "price": 0.0457,
         "currency": "PPG/CAD",
         "quantity": 1,
-        "owner": "0x12356qaweqw1789"
+        "ownerWallet": "0x12356qaweqw1789"
     }, {
         "orderType": "sell",
         "price": 0.0457,
         "currency": "PPG/CAD",
         "quantity": 3000,
-        "owner": "0x12356asdqw789"
+        "ownerWallet": "0x12356asdqw789"
     } ]
 }

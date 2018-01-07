@@ -1,0 +1,14 @@
+{
+    "orders": [ {
+        "orderType": "buy",
+        "price": 0.0430001,
+        "currency": "PPG/CAD",
+        "quantity": 1000
+    },
+    {
+        "orderType": "sell",
+        "price": 0.0444,
+        "currency": "PPG/CAD",
+        "quantity": 200
+    } ]
+}

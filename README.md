@@ -24,7 +24,7 @@ localhost:????/mySuperDupeApp
 - [ ] web application should be optimistic
 - [ ] the state should change without page refresh
 - [ ] the app will be "in memory" you can either only change the state of the application or modify the provided JSON files.
-- [ ] you need at least one waller per currency you want to trade
+- [ ] you need at least one wallet per currency you want to trade
 - [ ] you can simulate that your user is already logged in your application state
 
 ### Bonus points (18pts)

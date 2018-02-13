@@ -3,7 +3,13 @@ What a shame to our people, humans did not know us before our arrival on earth! 
 
 ## References
 - https://github.com/react-boilerplate/react-boilerplate
-- https://github.com/react-boilerplate/react-boilerplate/blob/master/docs/general/introduction.md
+
+## Quick start
+check in package.json engines to test with good version of node.
+use node version manager.
+
+- `npm install`
+- `npm run start`
 
 ## README.md
 
@@ -24,11 +30,11 @@ localhost:????/mySuperDupeApp
 **Languages/Frameworks**: React, Jest, ES6, Webpack, Enzyme
 
 ## Instructions
-- [ ] web application should be optimistic
+- [ ] one page application
 - [ ] the state should change without page refresh
-- [ ] the app will be "in memory" you can either only change the state of the application or modify the provided JSON files.
+- [ ] the app will be "in memory" you can either only change the state of the application.
 - [ ] you need at least one wallet per currency you want to trade
-- [ ] you can simulate that your user is already logged in your application state
+- [ ] you can simulate that your user is already logged in your application initial state
 
 ### Bonus points (18pts)
 - [ ] Deploy on a public cloud. (ex: Heroku) (0.5 pt)
@@ -56,7 +62,6 @@ _Give access to trades.json, accounts.json_
 
 
 ### Hour 2 
-_Give access to orders.json_
 - [ ] (2pt) Display the order book
 - [ ] (2pt) Create order to buy PGG with CAD
 - [ ] (2pt) Create order to sell PGG for CAD

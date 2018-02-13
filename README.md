@@ -29,52 +29,9 @@ localhost:????/mySuperDupeApp
 
 **Languages/Frameworks**: React, Jest, ES6, Webpack, Enzyme
 
-## Instructions
-- [ ] one page application
-- [ ] the state should change without page refresh
-- [ ] the app will be "in memory" you can either only change the state of the application.
-- [ ] you need at least one wallet per currency you want to trade
-- [ ] you can simulate that your user is already logged in your application initial state
-
-### Bonus points (18pts)
-- [ ] Deploy on a public cloud. (ex: Heroku) (0.5 pt)
-- [ ] Public CI pipeline (ex: CircleCi is available for public repositories for free)
-*(add link to your pipeline in the readme.md)
-    - [ ] build (1pt)
-    - [ ] run tests (1pt)
-    - [ ] deploy from a pipeline on public cloud service (ex: Heroku) (0.5 pt)
-- [ ] Unit Test
-    - [ ] branches coverages
-        - required how to run in readme.md
-        - (total number of features done * % branch coverage)/2
-        - (Corrector reserve the right to consider a test as integration test instead of unit tests. tip (shallow render))
-- [ ] Mobile responsiveness (2pt)
 
 
-### Hour 1
-_Give access to trades.json, accounts.json_
-- [ ] (1pt) Create wallet in an account
-- [ ] (1pt) Display wallets of an account
-- [ ] (1pt) Deposit PGG or CAD to a wallet
-- [ ] (1pt) Display wallet currency and amount
-- [ ] (1pt) Display the PGG/CAD current price (price of the latest trade)
-- [ ] (2pt) Display your account value CAD + PGG of all wallets (need to have a current PGG/CAD price)
 
 
-### Hour 2 
-- [ ] (2pt) Display the order book
-- [ ] (2pt) Create order to buy PGG with CAD
-- [ ] (2pt) Create order to sell PGG for CAD
-- [ ] (1pt) Cancel buy/sell orders
-- [ ] (2pt) Display the trades list
-- [ ] (2pt) Display candle price chart graph (y: price, x: date) https://en.wikipedia.org/wiki/Candlestick_chart
-- [ ] (2pt) Display depth chart. (y: volume, x: price)
 
 
-### Hour 3
-**Lore update:** After the crash half of our penguin fellows were not happy with the way the PGG was going, so they decided to fork the cryptocurrency. “PengWinGold” PWG
-- [ ] (3pt) Optimistically resolve trades on new orders.
-- [ ] (3pt) Implement all hour 1 features with PWG/CAD
-- [ ] (3pt) Implement all hour 2 features with PWG/CAD
-- [ ] (3pt) Implement all hour 1 features with PWG/PGG
-- [ ] (3pt) Implement all hour 2 features with PWG/PGG

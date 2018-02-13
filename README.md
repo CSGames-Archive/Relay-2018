@@ -1,6 +1,9 @@
 # Part 3 (web)
 What a shame to our people, humans did not know us before our arrival on earth! Luckily, we hired a political attaché specializing in the image of foreign peoples. With all the craze for the cryptocurrencies, our political commitment suggests developing a web platform to exchange PGG "PenGuinGold" against CAD.
 
+## References
+- https://github.com/react-boilerplate/react-boilerplate
+- https://github.com/react-boilerplate/react-boilerplate/blob/master/docs/general/introduction.md
 
 ## README.md
 

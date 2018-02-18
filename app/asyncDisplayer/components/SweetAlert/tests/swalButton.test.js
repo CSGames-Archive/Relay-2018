@@ -18,9 +18,6 @@ describe('given SwalButton', () => {
     it('should display swal button container', () => {
       expect(wrapper.find('SwalButtonContainer').length).toBe(1);
     });
-    it('should display button with class', () => {
-      expect(wrapper.find('withStyles(Button)').first().hasClass('swal-button swal-button--confirm')).toBe(true);
-    });
     it('should display text', () => {
       expect(wrapper.contains(text)).toBe(true);
     });

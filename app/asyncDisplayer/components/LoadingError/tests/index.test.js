@@ -27,21 +27,6 @@ describe('<LoadingError />', () => {
     expect(renderedComponent.text()).toMatch(/Something went wrong/);
   });
 
-  it('should not render children if object is empty', () => {
-    const children = 'aChild';
-    const renderedComponent = shallow(
-      <LoadingError
-        loading={false}
-        error={false}
-        entity={{}}
-        test
-      >
-        <div>{children}</div>
-      </LoadingError>
-    );
-    expect(renderedComponent.contains(children)).toEqual(false);
-  });
-
   it('should render children if loading was successful from entity', () => {
     const children = 'aChild';
     const renderedComponent = shallow(

@@ -42,12 +42,10 @@ LoadingError.propTypes = {
   error: PropTypes.any.isRequired,
   errorNode: PropTypes.node.isRequired,
   children: PropTypes.node.isRequired,
-  defaultNode: PropTypes.node.isRequired,
 };
 
 LoadingError.defaultProps = {
   errorNode: <ErrorComponent />,
-  defaultNode: <div />,
 };
 
 export default LoadingError;

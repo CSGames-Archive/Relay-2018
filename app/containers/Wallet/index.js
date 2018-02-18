@@ -1,11 +1,13 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import { compose } from 'redux';
+import { withStyles } from 'material-ui/styles/index';
+
 import { createStructuredSelector } from 'reselect';
 import { loadWallets } from './actions';
-import { connect } from 'react-redux';
 import injectReducer from '../../utils/injectReducer';
 import injectSaga from '../../utils/injectSaga';
 import { WALLETS } from './constants';
-import { compose } from 'redux';
 import reducer from './reducer';
 import saga from './saga';
 import { selectWallets, makeSelectWallets } from './selectors';
@@ -13,19 +15,25 @@ import { makeSelectLoading } from '../../asyncDisplayer/containers/IsLoading/sel
 import { makeSelectError } from '../../asyncDisplayer/containers/HasError/selectors';
 import LoadingError from '../../asyncDisplayer/components/LoadingError';
 
+
+const styles = () => ({
+  test: {
+    border: '2px solid',
+  },
+});
+
 class Wallet extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
-    console.log(this.props.wallets);
-
     return (
       <div>
-        <button onClick={this.props.onLoadWallets}>
-          load wallets
+        <button onClick={this.props.onLoadWallets} className={this.props.classes.test}>
+          click here to load wallets
         </button>
         <LoadingError
           loading={this.props.walletsLoading}
           error={this.props.walletsError}
-          errorNode={<p>error</p>}>
+          errorNode={<p>error</p>}
+        >
           <div>
             {this.props.wallets.map((wallet, index) => (
               <div key={wallet.address}>
@@ -60,12 +68,12 @@ const withConnect = connect(mapStateToProps, mapDispatchToProps);
 
 const withSurveyReducer = injectReducer({
   key: WALLETS,
-  reducer: reducer,
+  reducer,
 });
 
 const withSurveySaga = injectSaga({
   key: WALLETS,
-  saga: saga,
+  saga,
 });
 
 
@@ -73,4 +81,4 @@ export default compose(
   withSurveyReducer,
   withSurveySaga,
   withConnect,
-)(Wallet);
+)(withStyles(styles)(Wallet));

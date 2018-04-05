@@ -1,1 +1,1 @@
-# Relay competion 2018
+# Relay competition 2018
